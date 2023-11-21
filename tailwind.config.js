@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "hero-gradient": "url('../public/Gradient background.png')",
+        "section-wave": "url('../public/backgroundShade.png')",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
