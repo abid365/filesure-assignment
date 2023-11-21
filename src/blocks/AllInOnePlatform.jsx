@@ -30,7 +30,7 @@ const AllInOnePlatform = () => {
       </div>
 
       {/* Right side images */}
-      <div>
+      <div className="flex flex-col">
         <div className="relative">
           {/* chat bubbles */}
           <div className="absolute flex flex-col items-end left-7">
@@ -48,7 +48,26 @@ const AllInOnePlatform = () => {
           <img
             src="/public/Student.png"
             alt="student"
-            className="absolute -top-12 -right-12 h-80 border border-red-600"
+            className="absolute -top-12 -right-12 h-80"
+          />
+        </div>
+
+        {/* teacher image and chat bubble */}
+        <div className="relative">
+          {/* chat bubbles */}
+          <div className="absolute top-36 flex flex-col items-end w-fit">
+            <p className="rounded-t-xl rounded-bl-xl bg-[#DDF3FF] px-4 py-2 text-xs mb-2 w-fit">
+              I got a perfect analysis report from them too
+            </p>
+            <p className="rounded-t-xl rounded-bl-xl bg-[#DDF3FF] px-4 py-2 text-xs mb-2 w-fit">
+              Oh, that's great.
+            </p>
+          </div>
+          {/* techer image */}
+          <img
+            src="/public/Teacher.png"
+            alt="teacher image"
+            className="absolute h-80 top-56"
           />
         </div>
       </div>
