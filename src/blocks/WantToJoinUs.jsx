@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetures } from "../constants/feature";
-import { caUrl } from "../api/caApi";
+import { caUrl } from "../../public/api/caApi";
 import SingleCard from "../components/SingleCard";
 
 const WantToJoinUs = () => {
