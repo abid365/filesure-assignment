@@ -46,7 +46,7 @@ const AllInOnePlatform = () => {
           </div>
           {/* image */}
           <img
-            src="/public/Student.png"
+            src="/Student.png"
             alt="student"
             className="absolute -top-12 -right-12 h-80"
           />
@@ -65,7 +65,7 @@ const AllInOnePlatform = () => {
           </div>
           {/* techer image */}
           <img
-            src="/public/Teacher.png"
+            src="/Teacher.png"
             alt="teacher image"
             className="absolute h-80 top-56"
           />

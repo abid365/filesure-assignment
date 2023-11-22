@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       {/* Hero People */}
       <div className="lg:pl-10">
-        <img src="/public/HeroPeople.png" alt="Students" />
+        <img src="/HeroPeople.png" alt="Students" />
       </div>
     </div>
   );

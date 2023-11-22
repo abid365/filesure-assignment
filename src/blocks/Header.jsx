@@ -8,7 +8,7 @@ const Header = () => {
       {/* nav links */}
       <div className="flex gap-10 items-center">
         <Link to={"/"}>
-          <img src="/public/logo.png" alt="logo ipsum" />
+          <img src="/logo.png" alt="logo ipsum" />
         </Link>
         <a className="pt-1 font-bold text-sm" href="#">
           Solutions{" "}

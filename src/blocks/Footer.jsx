@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="lg:flex lg:flex-row lg:justify-between flex-col border-b-2 border-white pb-16">
           {/* footer brand */}
           <div className="w-fit">
-            <img src="/public/logoWhite.png" alt="logo ipsum" />
+            <img src="/logoWhite.png" alt="logo ipsum" />
             <p className="font-semibold text-sm text-white font-sans pt-4">
               India's first platform dedicated to <br /> simplifying partner
               search
