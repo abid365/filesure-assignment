@@ -4,8 +4,8 @@ import FooterList from "../components/FooterList";
 const Footer = () => {
   return (
     <div>
-      <div className="h-[341px] bg-gradient-to-r from-[#0076CE] to-[#9400D3] mt-[132px] px-20 pt-10">
-        <div className="lg:flex lg:justify-between border-b-2 border-white pb-16">
+      <div className="lg:h-[341px] bg-gradient-to-r from-[#0076CE] to-[#9400D3] mt-[132px] px-20 pt-10">
+        <div className="lg:flex lg:flex-row lg:justify-between flex-col border-b-2 border-white pb-16">
           {/* footer brand */}
           <div className="w-fit">
             <img src="/public/logoWhite.png" alt="logo ipsum" />
@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
           </div>
           {/* footer list */}
-          <div className="flex gap-16">
+          <div className="lg:flex lg:flex-row flex-wrap gap-16">
             <FooterList
               headList={"COMPANY"}
               list1={"About"}
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black bottom-0 w-full">
-        <h1 className="text-center text-white py-4 text-sm">
+        <h1 className="text-center text-white pt-4 text-sm">
           Registered trademark of India Private Limited © 2023 loerumipsum Inc.
           All Rights Reserved
         </h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="lg:h-[803px] lg:pl-20 lg:pr-10 py-3 bg-hero-gradient grid lg:grid-cols-2 items-center">
+    <div className="lg:h-[803px] lg:pl-20 lg:pr-10 px-10 bg-hero-gradient grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 items-start pt-[170px]">
       {/* left section */}
       <div>
         {/* hero text */}

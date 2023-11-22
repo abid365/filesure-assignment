@@ -1,1 +1,1 @@
-export const caUrl = `http://localhost:3000/ca`;
+export const caUrl = `https://filesiure-backend.vercel.app/ca`;

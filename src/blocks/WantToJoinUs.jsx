@@ -29,7 +29,7 @@ const WantToJoinUs = () => {
       {/* cards bg */}
       <div className="bg-section-wave bg-cover bg-center h-[757px]">
         {/* json data goes here */}
-        <div className="px-20 pt-20 grid lg:grid-cols-3 gap-y-4">
+        <div className="px-20 pt-20 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-4">
           {data.slice(0, 6).map((data, i) => {
             return <SingleCard data={data} key={i}></SingleCard>;
           })}

@@ -18,7 +18,7 @@ const CaDetails = () => {
   } = caDetails;
   return (
     <div className="px-20 pt-20 pb-10">
-      <div className="grid lg:grid-cols-3">
+      <div className="grid lg:grid-cols-3 grid-cols-1">
         {/* left sub-parent div */}
         <div>
           <div>
@@ -64,7 +64,7 @@ const CaDetails = () => {
         </div>
 
         {/* right sub parent div */}
-        <div className="lg:col-span-2 md:col-span-2">
+        <div className="lg:col-span-2">
           {/* image */}
           <div className="flex justify-end">
             <div>

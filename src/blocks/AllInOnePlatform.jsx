@@ -3,7 +3,7 @@ import { fetures } from "../constants/feature";
 
 const AllInOnePlatform = () => {
   return (
-    <div className="px-20 py-36 grid lg:grid-cols-2">
+    <div className="px-20 py-36 lg:grid lg:grid-cols-2 ">
       {/* left side text */}
       <div>
         <h1 className="font-poppins lg:text-[45px] leading-[60px]">
@@ -30,7 +30,7 @@ const AllInOnePlatform = () => {
       </div>
 
       {/* Right side images */}
-      <div className="flex flex-col">
+      <div className="lg:flex flex-col hidden">
         <div className="relative">
           {/* chat bubbles */}
           <div className="absolute flex flex-col items-end left-7">
