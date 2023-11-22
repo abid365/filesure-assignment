@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { caUrl } from "../../public/api/caApi";
 import SingleCard from "../components/SingleCard";
 
 const WantToJoinUs = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch(caUrl)
+    fetch(`https://filesiure-backend.vercel.app/ca`)
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);

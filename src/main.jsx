@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         path: "ca/:id",
         element: <CaDetails />,
         loader: async ({ params }) => {
-          const res = await fetch(caUrl);
+          const res = await fetch(`https://filesiure-backend.vercel.app/ca`);
           const data = await res.json();
           const caDetails = data.find((details) => details._id === params.id);
           return caDetails;
