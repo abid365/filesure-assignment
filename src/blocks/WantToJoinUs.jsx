@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { fetures } from "../constants/feature";
+import { caUrl } from "../api/caApi";
+import SingleCard from "../components/SingleCard";
 
 const WantToJoinUs = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch(caUrl)
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
+
   return (
     <section className="pb-10 pt-32">
       <div className="px-20">
@@ -21,7 +30,10 @@ const WantToJoinUs = () => {
       <div className="bg-section-wave bg-cover bg-center h-[757px]">
         {/* json data goes here */}
         <div className="px-20 py-20">
-          <h1 className="text-center">Show CA Cards</h1>
+          {data.map((data, i) => {
+            return <h1 key={i}>{data.name}</h1>;
+          })}
+          <SingleCard />
         </div>
       </div>
     </section>
