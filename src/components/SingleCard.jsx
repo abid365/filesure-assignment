@@ -7,7 +7,7 @@ const SingleCard = ({ data }) => {
   const arrPrefix = ["", "st", "nd", "rd", "th", "th", "th"];
 
   return (
-    <Link to={`/ca/${_id}`}>
+    <Link className="hover:cursor-pointer" to={`/ca/${_id}`}>
       <div className="border border-[#e2e2e2] bg-white rounded-lg shadow-md px-6 py-8 w-72 relative">
         <div>
           <h1 className="text-center text-sm font-bold py-1">{intro}</h1>
