@@ -29,12 +29,17 @@ const WantToJoinUs = () => {
       {/* cards bg */}
       <div className="bg-section-wave bg-cover bg-center h-[757px]">
         {/* json data goes here */}
-        <div className="px-20 py-20">
-          {data.map((data, i) => {
-            return <h1 key={i}>{data.name}</h1>;
+        <div className="px-20 pt-20 grid lg:grid-cols-3 gap-y-4">
+          {data.slice(0, 6).map((data, i) => {
+            return <SingleCard data={data} key={i}></SingleCard>;
           })}
-          <SingleCard />
         </div>
+        <p className="py-8 px-20 text-xs font-bold">
+          * For forms AOC-4 and MGT-7, you will be charged a penalty of ₹200
+          every day until you file the form . There is no maximum penalty
+          amount. So, if you don't file the form for a year, you will owe
+          ₹73,000 per form
+        </p>
       </div>
     </section>
   );
