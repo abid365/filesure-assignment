@@ -11,9 +11,8 @@ const Hero = () => {
       .then((res) => res.json())
       .then((data) => setResult(data));
   }, []);
-  console.log(result);
   return (
-    <div className="lg:h-[803px] lg:pl-20 lg:pr-10 px-10 bg-hero-gradient grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 items-start pt-[170px]">
+    <div className="lg:h-[803px] lg:pl-20 lg:pr-10 px-10 bg-hero-gradient grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 items-start pt-20 lg:pt-[170px]">
       {/* left section */}
       <div>
         {/* hero text */}
