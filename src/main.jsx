@@ -5,7 +5,6 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import CaDetails from "./components/CaDetails.jsx";
 import Main from "./Layout/Main.jsx";
-import { caUrl } from "../public/api/caApi.js";
 
 const router = createBrowserRouter([
   {

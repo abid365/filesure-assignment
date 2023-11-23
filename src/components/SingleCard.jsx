@@ -1,9 +1,7 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SingleCard = ({ data }) => {
   const { intro, about, deliveryTime, price, id, _id } = data;
-
   const arrPrefix = ["", "st", "nd", "rd", "th", "th", "th"];
 
   return (
